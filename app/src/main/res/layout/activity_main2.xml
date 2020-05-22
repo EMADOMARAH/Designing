@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/design"
+    tools:context="com.example.login_design.Main2Activity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom|right">
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="Login"
+                android:textColor="@android:color/background_dark"
+                android:textSize="60dp"
+                android:fontFamily="serif"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="360dp"
+        android:layout_height="0dp"
+        android:layout_weight="2.5"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:background="@drawable/layout_bg">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:background="@drawable/shadow_1"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="7dp"
+            android:fontFamily="serif"
+            android:hint="Username"
+            android:paddingLeft="40dp"
+            android:textColorHint="#141111"
+            android:textColorLink="#000C0B0B" />
+
+        <EditText
+            android:paddingLeft="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="textPassword"
+            android:background="@drawable/shadow_2"
+            android:layout_centerInParent="true"
+            android:hint="Password"
+            android:textColorHint="#141111"
+            android:drawableStart="@drawable/ic_pw_key"
+            android:fontFamily="serif"
+            android:drawablePadding="7dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="right">
+
+        <TextView
+            android:gravity="right"
+            android:paddingTop="10dp"
+            android:textSize="15dp"
+            android:paddingRight="120dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="forgot a password ?" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="center|left">
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="130dp"
+            android:layout_height="60dp"
+            android:textAlignment="textStart"
+            android:layout_marginBottom="60dp"
+            android:paddingLeft="15dp"
+            android:background="@drawable/bottonshadow1"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="18dp"
+            android:fontFamily="serif"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mobile_design"
+    android:gravity="center"
+    tools:context="com.example.login_design.MainActivity"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="bottom|right">
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_width="110dp"
+                android:layout_height="60dp"
+                android:background="@drawable/bottonshadow"
+                android:text="Login"
+                android:textAllCaps="false"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:fontFamily="serif"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|bottom"
+                android:text="Register"
+                android:textColor="@android:color/background_dark"
+                android:textSize="60dp"
+                android:fontFamily="serif"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="350dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_gravity="left"
+        android:background="@drawable/layout_bg"
+        android:layout_marginBottom="30dp"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_person"
+            android:drawablePadding="7dp"
+            android:fontFamily="serif"
+            android:hint="Username"
+            android:background="@null"
+            android:paddingLeft="40dp"
+            android:textColorHint="#141111"
+            android:textColorLink="#000C0B0B" />
+
+        <VideoView
+            android:layout_width="340dp"
+            android:layout_height="1dp"
+            android:background="#969595"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_centerInParent="true"
+            android:layout_weight="1"
+            android:drawableStart="@drawable/ic_pw_key"
+            android:drawablePadding="7dp"
+            android:fontFamily="serif"
+            android:hint="Password"
+            android:background="@null"
+            android:inputType="textPassword"
+            android:paddingLeft="40dp"
+            android:textColorHint="#141111" />
+        <VideoView
+            android:background="#969595"
+            android:layout_width="340dp"
+            android:layout_height="1dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:inputType="textEmailAddress"
+            android:layout_centerInParent="true"
+            android:hint="Email Address"
+            android:background="@null"
+            android:textColorHint="#141111"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:fontFamily="serif"
+            android:drawablePadding="7dp"
+            android:paddingLeft="40dp"
+            />
+
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+    </LinearLayout>
+
+
+</LinearLayout>
